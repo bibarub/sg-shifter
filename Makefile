@@ -1,11 +1,11 @@
 CC=gcc
 CFLAGS=-Wall
-TARGET=src-shifter
+TARGET=sg-shifter
 
 all: $(TARGET)
 
 $(TARGET): main.c
-	$(CC) $(CFLAGS) -o $(TARGET) main.c
+	$(CC) $(CFLAGS) -o $(TARGET) sg-shifter.c
 
 clean:
 	$(RM) $(TARGET)
