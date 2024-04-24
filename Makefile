@@ -4,7 +4,7 @@ TARGET=sg-shifter
 
 all: $(TARGET)
 
-$(TARGET): main.c
+$(TARGET): sg-shifter.c
 	$(CC) $(CFLAGS) -o $(TARGET) sg-shifter.c
 
 clean:
